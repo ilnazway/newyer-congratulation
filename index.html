@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Название</title>
+  </head>
+  <body onload="time()">
+    <div class="congrat">
+      <div class="congrat-start">
+        <div class="congrat-start__inner">
+          <p class="congrat__description">Кнопка поздравляет кб</p>
+          <button class="congrat__button" onclick="play()"></button>
+        </div>
+      </div>
+      <div class="congrat-presecond">
+        <p class="congrat-presecond__title title_default">С наступающим Новым годом!</p>
+        <img src="img/leonardo.gif" alt="" />
+      </div>
+      <div class="congrat-second">
+        <div class="congrat-second__inner">
+          <p class="congrat-second__description title_default">Поздравляю каждого из КБ!</p>
+          <table>
+            <tr>
+              <td><img src="img/user1.png" alt="" /></td>
+              <td><img src="img/user2.png" alt="" /></td>
+              <td><img src="img/user3.png" alt="" /></td>
+              <td><img src="img/user4.png" alt="" /></td>
+              <td><img src="img/user5.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td><img src="img/user6.png" alt="" /></td>
+              <td><img src="img/user7.png" alt="" /></td>
+              <td><img src="img/user8.png" alt="" /></td>
+              <td><img src="img/user9.png" alt="" /></td>
+              <td><img src="img/user10.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td><img src="img/user11.png" alt="" /></td>
+              <td><img src="img/user12.png" alt="" /></td>
+              <td><img src="img/user20.png" alt="" /></td>
+              <td><img src="img/user13.png" alt="" /></td>
+              <td><img src="img/user14.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td><img src="img/user15.png" alt="" /></td>
+              <td><img src="img/user16.png" alt="" /></td>
+              <td><img src="img/user17.png" alt="" /></td>
+              <td><img src="img/user18.png" alt="" /></td>
+              <td><img src="img/user19.png" alt="" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="congrat-prethree">
+        <p class="title_default">Желаю вам прекрасного года, <br />полного здоровья и благополучия!</p>
+        <img src="img/img2.jpg" />
+      </div>
+      <div class="congrat-three">
+        <p class="title_default congrat-three__title">До нового года остается..</p>
+        <p class="congrat-three__timer"><span id="t"></span></p>
+        <img class="congrat-three__img" src="img/img1.jpg" />
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <!-- скрипт снежинок -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://daruse.ru/assets/js/snowfall.js"></script>
+    <script type="text/javascript">
+      $(document).snowfall();
+    </script>
+  </body>
+</html>
